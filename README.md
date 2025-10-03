@@ -1,4 +1,5 @@
-TalentFlow
+https://github.com/rohiiitt/TALENTFLOW-A-MINI-HIRING-PLATFORM TalentFlow
+
 A modern, full-stack talent management platform built with React, TypeScript, and Vite. TalentFlow provides comprehensive tools for HR teams to manage job postings, candidate assessments, and recruitment workflows.
 
 Features
