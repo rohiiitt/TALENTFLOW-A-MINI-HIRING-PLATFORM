@@ -85,7 +85,7 @@ npm install
 Start development server
 
 npm run dev
-Open your browser Navigate to http://localhost:5173
+Open your browser Navigate to(http://localhost:5173/)
 
 Available Scripts
 npm run dev      # Start development server
@@ -152,6 +152,7 @@ Vercel will automatically detect Vite configuration
 The vercel.json file handles SPA routing
 Deploy with zero configuration
 Other Platforms
+
 Netlify: Add _redirects file with /* /index.html 200
 GitHub Pages: Use gh-pages package with proper base path
 AWS S3 + CloudFront: Configure error pages to redirect to index.html
@@ -165,6 +166,7 @@ Planned Features
  Assessment templates and library
  API rate limiting and caching
  Progressive Web App (PWA) features
+ 
 Technical Improvements
  Add comprehensive test coverage
  Implement error boundaries
