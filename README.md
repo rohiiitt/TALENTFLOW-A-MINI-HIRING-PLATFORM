@@ -1,49 +1,57 @@
-https://github.com/rohiiitt/TALENTFLOW-A-MINI-HIRING-PLATFORM TalentFlow
+# TalentFlow
 
 A modern, full-stack talent management platform built with React, TypeScript, and Vite. TalentFlow provides comprehensive tools for HR teams to manage job postings, candidate assessments, and recruitment workflows.
 
-Features
+# Features
 Core Functionality
+
 Job Management: Create, edit, and manage job postings with detailed requirements
 Candidate Management: Track and manage candidate profiles and applications
 Assessment Builder: Create dynamic, multi-section assessments with various question types
 Assessment Preview: Real-time preview of assessments before publishing
 Assessment Results: View and analyze candidate assessment responses
 Dashboard Analytics: Comprehensive HR dashboard with key metrics
-Question Types
+
+# Question Types
 Single Choice
 Multiple Choice
 Short Text
 Long Text
 Numeric Input
 File Upload
-Advanced Features
+
+# Advanced Features
 Conditional Logic: Questions can be shown/hidden based on previous answers
 Real-time Validation: Client-side validation with customizable rules
 Responsive Design: Mobile-first design with Tailwind CSS
 Mock API: Complete mock backend with MSW (Mock Service Worker)
 Local Storage: Persistent data storage with IndexedDB via Dexie
-Tech Stack
+
+# Tech Stack
 Frontend
 React 19.1.1 - UI library with latest features
 TypeScript 5.8.3 - Type-safe JavaScript
 Vite 7.1.2 - Fast build tool and dev server
 React Router DOM 7.9.0 - Client-side routing
 Tailwind CSS 4.1.13 - Utility-first CSS framework
-State Management & Data
+
+# State Management & Data
 Dexie 4.2.0 - IndexedDB wrapper for local storage
 MSW 2.11.2 - Mock Service Worker for API mocking
 Axios 1.12.1 - HTTP client for API requests
-UI Components
+
+# UI Components
+
 Radix UI - Accessible component primitives
 Lucide React - Beautiful icon library
 React Hot Toast - Toast notifications
 Class Variance Authority - Component variant management
-Development Tools
+
+# Development Tools
 ESLint - Code linting and formatting
 TypeScript ESLint - TypeScript-specific linting rules
 Faker.js - Fake data generation for development
-Project Structure
+# Project Structure
 src/
 ├── components/           # Reusable UI components
 │   ├── common/          # Shared components (JobCard, JobSkeleton)
@@ -71,7 +79,9 @@ src/
 ├── types/               # TypeScript type definitions
 ├── utils/               # Utility functions
 └── main.tsx            # Application entry point
-Quick Start
+
+#Quick Start
+
 Prerequisites
 Node.js 18+
 npm or yarn
@@ -88,27 +98,33 @@ Start development server
 npm run dev
 Open your browser Navigate to(http://localhost:5173/)
 
-Available Scripts
+# Available Scripts
 npm run dev      # Start development server
 npm run build    # Build for production
 npm run preview  # Preview production build
 npm run lint     # Run ESLint
-Architecture
+# Architecture
 Frontend Architecture
+
 Component-Based: Modular React components with clear separation of concerns
 Type-Safe: Full TypeScript coverage with strict type checking
 Responsive: Mobile-first design with Tailwind CSS
 Accessible: Built with accessibility in mind using Radix UI primitives
+
 Data Layer
+
 Mock Backend: MSW provides complete API simulation
 Local Storage: Dexie manages IndexedDB for persistent data
 Seed Data: Faker.js generates realistic test data
 Type Safety: All data operations are fully typed
+
 Routing
+
 Client-Side Routing: React Router DOM handles navigation
 Nested Routes: Dashboard with nested assessment routes
 Route Protection: Automatic redirects for HR login flow
-Technical Decisions
+
+# Technical Decisions
 Why React 19?
 Latest React features including improved concurrent rendering
 Better performance with automatic batching
@@ -133,7 +149,8 @@ Utility-first: Rapid prototyping and consistent design
 Responsive: Mobile-first approach built-in
 Customizable: Easy to extend with custom design system
 Performance: Purges unused styles in production
-Known Issues & Solutions
+
+# Known Issues & Solutions
 1. SPA Routing on Vercel
 Issue: 404 errors when refreshing pages on Vercel Solution: Added vercel.json with rewrite rules to serve index.html for all routes
 
@@ -154,7 +171,6 @@ The vercel.json file handles SPA routing
 Deploy with zero configuration
 Other Platforms
 
-Netlify: Add _redirects file with /* /index.html 200
 GitHub Pages: Use gh-pages package with proper base path
 AWS S3 + CloudFront: Configure error pages to redirect to index.html
 Future Enhancements
@@ -168,7 +184,8 @@ Planned Features
  API rate limiting and caching
  Progressive Web App (PWA) features
  
-Technical Improvements
+# Technical Improvements
+
  Add comprehensive test coverage
  Implement error boundaries
  Add performance monitoring
@@ -181,10 +198,8 @@ Create a feature branch (git checkout -b feature/amazing-feature)
 Commit your changes (git commit -m 'Add amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+# Acknowledgments
 React - The UI library
 Vite - The build tool
 Tailwind CSS - The CSS framework
